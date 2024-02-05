@@ -6,7 +6,9 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <div>
-      <NavBar />
+      <header id="header">
+        <NavBar />
+      </header>
       <HomePage />
     </div>
   );
