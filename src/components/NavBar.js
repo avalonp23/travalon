@@ -1,19 +1,25 @@
   import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import {
+    Nav,
+    NavLink,
+    NavMenu,
+} from "./NavbarElements";
 
-const NavBar = () => {
+const Navbar = () => {
     return (
-        <Navbar bg="dark" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#cities">Explore Cities</Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
+        <div>
+            <Nav>
+                <NavMenu>
+                    <NavLink to="/">
+                        Home
+                    </NavLink>
+                    <NavLink to="/cities" activeStyle>
+                        Explore cities
+                    </NavLink>
+                </NavMenu>
+            </Nav>
+        </div>
     );
 }
 
-export default NavBar;
+export default Navbar;
