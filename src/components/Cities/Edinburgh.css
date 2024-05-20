@@ -1,0 +1,61 @@
+.centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.edinburghWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+.pros_edinburgh{
+    grid-column: 1;
+    grid-row: 2;
+    width: 375px;
+    height: 300px;
+    margin-top: -321px;
+    border: 5px solid black;
+    background-color: rgba(73, 73, 77, 0.6);
+}
+.cons_edinburgh{
+    grid-column: 1;
+    grid-row: 1;
+    width: 375px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(73, 73, 77, 0.6);
+}
+.hotels_edinburgh{
+    grid-column: 2;
+    grid-row: 1;
+    width: 270px;
+    height: 630px;
+    margin-left: 55px;
+    border: 5px solid black;
+    background-color: rgba(73, 73, 77, 0.6);
+}
+.thingsToDo_edinburgh{
+    grid-column: 3;
+    grid-row: 1;
+    width: 360px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(73, 73, 77, 0.6);
+}
+.funFact_edinburgh{
+    grid-column: 3;
+    grid-row: 2;
+    width: 360px;
+    height: 300px;
+    margin-top: -321px;
+    border: 5px solid black;
+    background-color: rgba(73, 73, 77, 0.6);
+}
+ul {
+    align-items: center;
+    padding-right: 20px;
+    list-style-type: circle;
+}

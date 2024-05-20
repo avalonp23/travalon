@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid white;
 `;
     
 export const NavLink = styled(Link)`
@@ -18,19 +18,19 @@ export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     height: 100%;
     cursor: pointer;
     &.active {
-        color: #FFFFF;
-        fomt-weight: bold;
+        color: #ffffff;
+        font-weight: bold;
     }
 `;
 
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-left: -300px;
+    margin-left: -150px;
     @media screen and (max-width: 768px) {
         display: none;
     }

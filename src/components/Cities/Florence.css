@@ -1,0 +1,61 @@
+.centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.florenceWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+.pros_florence{
+    grid-column: 1;
+    grid-row: 1;
+    width: 375px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(16, 28, 68, 0.6);
+}
+.cons_florence{
+    grid-column: 1;
+    grid-row: 2;
+    width: 375px;
+    height: 300px;
+    border: 5px solid black;
+    margin-top: -321px;
+    background-color: rgba(16, 28, 68, 0.6);
+}
+.hotels_florence{
+    grid-column: 2;
+    grid-row: 1;
+    width: 270px;
+    height: 630px;
+    margin-left: 55px;
+    border: 5px solid black;
+    background-color: rgba(16, 28, 68, 0.6);
+}
+.thingsToDo_florence{
+    grid-column: 3;
+    grid-row: 1;
+    width: 360px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(16, 28, 68, 0.6);
+}
+.funFact_florence{
+    grid-column: 3;
+    grid-row: 2;
+    width: 360px;
+    height: 300px;
+    margin-top: -321px;
+    border: 5px solid black;
+    background-color: rgba(16, 28, 68, 0.6);
+}
+ul {
+    align-items: center;
+    padding-right: 20px;
+    list-style-type: circle;
+}
