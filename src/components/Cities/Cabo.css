@@ -1,0 +1,61 @@
+.centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.caboWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    color: black;
+    font-weight: bold;
+}
+.pros_cabo{
+    grid-column: 1;
+    grid-row: 1;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(65, 145, 179, 0.6);
+}
+.cons_cabo{
+    grid-column: 2;
+    grid-row: 1;
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    margin-left: 185px;
+    background-color: rgba(65, 145, 179, 0.6);
+}
+.hotels_cabo{
+    grid-column: 3;
+    grid-row: 2;
+    width: 335px;
+    height: 300px;
+    margin-left: -11px;
+    border: 5px solid black;
+    background-color: rgba(65, 145, 179, 0.6);
+}
+.thingsToDo_cabo{
+    grid-column: 1;
+    grid-row: 2;
+    width: 325px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(65, 145, 179, 0.6);
+}
+.funFact_cabo{
+    grid-column: 2;
+    grid-row: 2;
+    width: 295px;
+    height: 300px;
+    margin-left: 10px;
+    border: 5px solid black;
+    background-color: rgba(65, 145, 179, 0.6);
+}
+ul {
+    align-items: center;
+    padding-right: 20px;
+    list-style-type: circle;
+}

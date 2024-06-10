@@ -1,0 +1,63 @@
+.centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.amsterdamWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+.pros_amsterdam{
+    grid-column: 1;
+    grid-row: 2;
+    width: 400px;
+    height: 300px;
+    margin-top: -320px;
+    border: 5px solid black;
+    background-color: rgba(153, 84, 20, 0.60);
+}
+.cons_amsterdam{
+    grid-column: 1;
+    grid-row: 1;
+    width: 323px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: rgba(153, 84, 20, 0.60);
+}
+.hotels_amsterdam{
+    grid-column: 3;
+    grid-row: 1;
+    width: 200px;
+    height: 630px;
+    margin-left: 100px;
+    border: 5px solid black;
+    background-color: rgba(153, 84, 20, 0.60);
+}
+.thingsToDo_amsterdam{
+    grid-column: 2;
+    grid-row: 1;
+    width: 425px;
+    height: 300px;
+    margin-left: -3px;
+    border: 5px solid black;
+    background-color: rgba(153, 84, 20, 0.60);
+}
+.funFact_amsterdam{
+    grid-column: 2;
+    grid-row: 2;
+    width: 350px;
+    height: 300px;
+    margin-top: -320px;
+    margin-left: 75px;
+    border: 5px solid black;
+    background-color: rgba(153, 84, 20, 0.60);
+}
+ul {
+    align-items: center;
+    padding-right: 20px;
+    list-style-type: circle;
+}

@@ -1,0 +1,60 @@
+.centerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.hamptonsWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 10px;
+    color: black;
+    font-weight: bold;
+}
+.pros_hamptons{
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    height: 600px;
+    border: 5px solid black;
+    background-color: rgba(170, 214, 199, 0.6);
+}
+.cons_hamptons{
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    height: 600px;
+    border: 5px solid black;
+    background-color: rgba(170, 214, 199, 0.6);
+}
+.hotels_hamptons{
+    grid-column: 4;
+    grid-row: 1;
+    width: 200px;
+    height: 600px;
+    margin-left: 150px;
+    border: 5px solid black;
+    background-color: rgba(170, 214, 199, 0.6);
+}
+.thingsToDo_hamptons{
+    grid-column: 3;
+    grid-row: 1;
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    background-color: rgba(170, 214, 199, 0.6);
+}
+.funFact_hamptons{
+    grid-column: 3;
+    grid-row: 2;
+    width: 350px;
+    height: 200px;
+    margin-top: -222.5px;
+    border: 5px solid black;
+    background-color: rgba(170, 214, 199, 0.6);
+}
+ul {
+    align-items: center;
+    padding-right: 20px;
+    list-style-type: circle;
+}
